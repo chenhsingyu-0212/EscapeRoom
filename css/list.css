@@ -26,23 +26,36 @@ div{
     width: 60%;
     padding: 50px;
 }
+
 html, body {
     zoom: 1;
   }
 
-a{
+.a{
+    display: inline;
     background-color: #809EC2;
     color: white;
     padding: 10px 20px;
     margin: 20px 10px;
     border-radius: 20px;
-    font-size: 1.5em;
+    font-size: 20px;
     text-align: center;
     font-family: 'Lobster', cursive;
     text-decoration: none;
 }
 
-a:hover{
+.a:hover{
     color: #809EC2;
     background-color: white;
+}
+
+.d{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
 }
