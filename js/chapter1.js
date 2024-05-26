@@ -20,6 +20,7 @@ function next(id) {
         document.getElementById("four").style.display = "block";
         document.getElementById("third").style.display = "none";
         document.getElementById("letter").style.display = "none";
+        window.zoom = 1;
       }else{
         alert("答案錯誤");
       }

@@ -22,6 +22,7 @@ function next(id) {
         document.getElementById("four").style.display = "block";
         document.getElementById("background").style.backgroundImage =
             "url('./images/P2-DoorOpen.jpg')";
+            window.zoom = 1;
       } else {
         alert("答案錯誤");
       }

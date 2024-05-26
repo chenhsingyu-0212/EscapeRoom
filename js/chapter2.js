@@ -21,6 +21,7 @@ function next(id) {
 function yes(){
     document.getElementById("four").style.display = "block";
     document.getElementById("third").style.display = "none";
+    window.zoom = 1;
 }
 
 function no(){

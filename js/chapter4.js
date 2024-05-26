@@ -22,6 +22,7 @@ function next(id) {
           document.getElementById("third").style.display = "none";
           document.getElementById("letter").style.display = "none";
           document.getElementById("background").style.backgroundImage = "url('./images/P5-End1.jpg')";
+          window.zoom = 1;
         }else{
           alert("答案錯誤");
         }

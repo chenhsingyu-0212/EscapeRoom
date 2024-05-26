@@ -19,6 +19,7 @@ function next(id) {
         document.getElementById("second").style.display = "none";
         document.getElementById("background").style.backgroundImage =
           "url('./images/P5-End2.jpg')";
+          window.zoom = 1;
       } else {
         alert("答案錯誤");
       }
