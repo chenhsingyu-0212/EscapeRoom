@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/chapter4.css?v0.1">
+    </head>
+    <body id="background">
+        <img id="letter" src="./images/P5-Mail.png" alt="letter" style="display: none; position: fixed; z-index: -1;">
+        <div id="first">
+            <h1 class="word">
+                在看完這封密卷後，在你的慎重思考後，決定在明晚將其送去給當時的好友陳東。但就在你們正準備要回去時，飛燕突然誤觸了陷阱，瞬間整間屋子充滿大火，這時你也發現了門被另一道鎖鎖住了，鎖頭上刻著密密麻麻的小字，貌似是首詩，在火勢一發不可收拾前，你需要找出鑰匙，才有可能逃離這裡，安全離開這裡並把密卷送出。在你們三人的合作下，找出了這樣的箱子......
+            </h1>
+            <a onclick="next(1)">繼續</a>
+        </div>
+        <div id="second" style="display: none;">
+            <a onclick="next(2)">點擊密碼箱</a>
+        </div>
+        <div id="third" style="display: none;">
+            <div class="line"><input type="text" id="a1" value="">洗塵埃道未甞，</div>
+            <div class="line">甘於名利兩相忘。</div>
+            <div class="line"><input type="text" id="a2" value="">懷六洞丹霞客，</div>
+            <div class="line">口誦三清紫府章。</div>
+            <div class="line">十裡採蓮歌達旦，</div>
+            <div class="line"><input type="text" id="a3" value="">輪明月桂飄香。</div>
+            <div class="line"><input type="text" id="a4" value="">高公子還相覓，</div>
+            <div class="line"><input type="text" id="a5" value="">得山中好酒漿。</div>
+            <a class="link" onclick="next(3)">開鎖</a>
+        </div>
+        <div id="four" style="display: none;">
+            <h1 class="word">
+                你順利找到鑰匙，逃離了火場。
+            </h1>
+            <a onclick="next(4)">下一章</a>
+        </div>
+        <script src="./js/chapter4.js?v0.2"></script>
+    </body>
+</html>

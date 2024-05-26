@@ -1,5 +1,5 @@
 #background {
-    background-image: url("../images/P2-DoorClose.jpg");
+    background-image: url("../images/P4-Fire2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,31 +41,47 @@ a:hover{
     color: white;
 }
 
-.passwd{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    font-family: 'Lobster', cursive;
 }
 
-.button{
-    background-color: #D19A61;
-    color: white;
-    padding: 20px 20px;
-    border-radius: 5px;
-    font-size: 1.5em;
+.link{
+    color: #809EC2;
+    background-color: white;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-size: 18px;
     text-align: center;
     font-family: 'Lobster', cursive;
     text-decoration: none;
-    margin: 40px 20px;
-    user-select: none;
+    float: right;
 }
 
-.button:hover{
-    color: #D19A61;
-    background-color: white;
+.link:hover{
+    background-color: #809EC2;
+    color: white;
 }
 
-#second{
+input{
+    display: inline;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    width: 10%;
+    font-family: 'Lobster', cursive;
+}
+
+.line{
+    text-align: center;
+    margin: 0px auto 15px auto;
+}
+
+#third{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
