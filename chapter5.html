@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./css/chapter5.css?v0.1" />
+  </head>
+  <body id="background">
+    <img
+      id="letter"
+      src="./images/P5-Mail.png"
+      alt="letter"
+      style="display: none; position: fixed; z-index: -1"
+    />
+    <div id="first">
+      <h1 class="word">
+        逃離後，你帶著財寶回到家，發現家中好像有人進入過，在翻找一番後，你發現並未有東西遺失，但卻多了一封信件，你發現了熟悉的章印，得知這封信應該就是當時告知你寶藏訊息的人，但這次卻不是使用上次的加密方式。
+      </h1>
+      <a onclick="next(1)">點擊信件</a>
+    </div>
+    <div id="second" style="display: none">
+      <img
+        src="./images/question.png"
+        alt="letter"
+        style="width: 80%; margin: auto"
+      />
+      <div class="answer">
+        <div><input type="text" id="a1" value="" /></div>
+        <div><input type="text" id="a2" value="" /><span style="color: white;">方</span></div>
+        <div><input type="text" id="a3" value="" /><span style="color: white;">時</span></div>
+        <div><a class="link" onclick="next(2)">驗證</a></div>
+      </div>
+    </div>
+    <div id="four" style="display: none">
+      <h1 class="word">解開後，信中約了時間與地點，你依約抵達了那個地方，發現，原來此位隱藏在背後的人就是好友陳東，他告訴了你寶藏的真相與六賊貪贓枉法的內幕，請求你將密卷交給他，讓他上書請誅六賊。</h1>
+      <a onclick="next(4)">結局</a>
+    </div>
+    <script src="./js/chapter5.js?v0.2"></script>
+  </body>
+</html>

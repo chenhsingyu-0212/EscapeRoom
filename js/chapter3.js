@@ -43,3 +43,7 @@ function changea3() {
   let a3 = document.getElementById("a3");
   a3.innerHTML = arr3[num3++ % 5];
 }
+
+window.onload = function () {
+    window.zoom = 1;
+  };

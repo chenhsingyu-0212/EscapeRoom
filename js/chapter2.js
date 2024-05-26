@@ -25,3 +25,7 @@ function yes(){
 function no(){
     alert("答案錯誤");
 }
+
+window.onload = function () {
+    window.zoom = 1;
+  };

@@ -30,3 +30,7 @@ function next(id) {
         break;
     }
   }
+
+  window.onload = function () {
+    window.zoom = 1;
+  };

@@ -1,3 +1,7 @@
+window.onload = function () {
+  window.zoom = 1;
+};
+
 function next(id) {
   switch (id) {
     case 1:
