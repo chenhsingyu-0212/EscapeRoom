@@ -7,7 +7,7 @@ function next(id) {
         break;
       case 2:
         document.getElementById("second").style.display = "none";
-        document.getElementById("third").style.display = "block";
+        document.getElementById("third").style.display = "flex";
         document.getElementById("letter").style.display = "none";
         document.getElementById("background").style.backgroundImage = "url('./images/map.jpg')";
         break;
