@@ -12,9 +12,15 @@ function next(id) {
       break;
     case 3:
       if(document.getElementById("answer").value == "華東門前"){
-        window.location.href = "./chapter2.html";
+        document.getElementById("four").style.display = "block";
+        document.getElementById("third").style.display = "none";
+        document.getElementById("letter").style.display = "none";
       }else{
         alert("答案錯誤");
       }
+      break;
+    default:
+      window.location.href = "./chapter2.html";
+      break;
   }
 }
