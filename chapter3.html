@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./css/chapter3.css?v0.1">
+        <link rel="stylesheet" type="text/css" href="./css/chapter3.css?v0.2">
     </head>
     <body id="background">
         <div id="first">
@@ -10,37 +10,17 @@
             <a onclick="next(1)">點擊密碼鎖</a>
         </div>
         <div id="second" style="display: none;">
-            <img src="./images/P3-Frog.jpg" alt="frog" style="width: 200px; height: 200px;"> 
+            <img src="./images/P3-Frog.jpg" alt="frog" style="width: 200px; height: 200px; margin: auto;"> 
             <div class="passwd">
-                <div class="botton" onclick="no()">
-                    <img src="./images/up.png" alt="tree" style="width: 200px; height: 200px;">
-                </div>
-                <div class="botton" onclick="yes()">
-                    <img src="./images/tree.png" alt="tree" style="width: 200px; height: 200px;">
-                </div>
-                <div class="botton" onclick="no()">
-                    <img src="./images/in.png" alt="tree" style="width: 200px; height: 200px;">
-                </div>
+                <div class="button" id="a1" onclick="changea1()">我</div>
+                <div class="button" id="a2" onclick="changea2()">獸</div>
+                <div class="button" id="a3" onclick="changea3()">菜</div>
             </div>
-            <a class="link" onclick="next(2)">選擇躲藏地點</a>
-        </div>
-        <div id="third" style="display: none;">
-            <div class="botton" onclick="no()">
-                <img src="./images/up.png" alt="tree" style="width: 200px; height: 200px;">
-            </div>
-            <div class="botton" onclick="yes()">
-                <img src="./images/tree.png" alt="tree" style="width: 200px; height: 200px;">
-            </div>
-            <div class="botton" onclick="no()">
-                <img src="./images/in.png" alt="tree" style="width: 200px; height: 200px;">
-            </div>
-            <div class="botton" onclick="no()">
-                <img src="./images/water.png" alt="tree" style="width: 200px; height: 200px;">
-            </div>
+            <a class="link" onclick="next(2)">開鎖</a>
         </div>
         <div id="four" style="display: none;">
             <h1 class="word">
-                按照密信裡給予的線索險象環生的躲過了陷阱，走到了門前，門後透出一抹奇異的金黃色光芒......
+                牆上的話果然是留給同夥的暗示，你們利用暗示解開大門的鎖後發現，除了金銀財寶，還有被隱藏在中間的一封密卷，裡面揭開了一場驚世駭俗的醜事，裡面詳細記錄了宋徽宗與六賊做的許多荒唐事。
             </h1>
             <a onclick="next(4)">下一章</a>
         </div>

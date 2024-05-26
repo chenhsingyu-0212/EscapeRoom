@@ -46,3 +46,28 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+
+.button{
+    background-color: #D19A61;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    margin: 40px 20px;
+    user-select: none;
+}
+
+.button:hover{
+    color: #D19A61;
+    background-color: white;
+}
+
+#second{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
