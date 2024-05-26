@@ -1,0 +1,90 @@
+#background {
+    background-image: url("../images/P5-End3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    padding: 0 10%;
+}
+
+.word{
+    font-size: 2em;
+    color: white;
+    background-color: #000000aa;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+a{
+    color: #809EC2;
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    float: right;
+}
+
+a:hover{
+    background-color: #809EC2;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    font-family: 'Lobster', cursive;
+}
+
+.link{
+    color: #809EC2;
+    background-color: white;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    float: right;
+}
+
+.link:hover{
+    background-color: #809EC2;
+    color: white;
+}
+
+.botton{
+    color: #809EC2;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+}
+
+.botton:hover{
+    background-color: #D19A61;
+    color: white;
+}
+
+#third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

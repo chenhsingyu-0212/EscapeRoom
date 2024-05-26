@@ -19,6 +19,8 @@ function next(id) {
       ) {
         document.getElementById("second").style.display = "none";
         document.getElementById("four").style.display = "block";
+        document.getElementById("background").style.backgroundImage =
+            "url('./images/P2-DoorOpen.jpg')";
       } else {
         alert("答案錯誤");
       }
@@ -45,5 +47,5 @@ function changea3() {
 }
 
 window.onload = function () {
-    window.zoom = 1;
-  };
+  window.zoom = 1;
+};
