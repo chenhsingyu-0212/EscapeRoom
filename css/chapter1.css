@@ -40,3 +40,38 @@ a:hover{
     background-color: #809EC2;
     color: white;
 }
+
+p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    font-family: 'Lobster', cursive;
+}
+
+.link{
+    color: #809EC2;
+    background-color: white;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    float: right;
+}
+
+.link:hover{
+    background-color: #809EC2;
+    color: white;
+}
+
+#answer{
+    display: block;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+}

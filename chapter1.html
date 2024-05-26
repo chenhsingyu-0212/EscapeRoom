@@ -1,11 +1,23 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./css/chapter1.css">
+        <link rel="stylesheet" type="text/css" href="./css/chapter1.css?v0.1">
     </head>
     <body id="background">
+        <img id="letter" src="./images/P5-Mail.png" alt="letter" style="display: none; position: fixed; z-index: -1;">
         <div id="first">
             <h1 class="word">
-                北宋宣和年，當時宋徽宗寵信六個奸臣，使蔡京、王黼、童貫、朱勔、李彥、梁師成， 六賊當道，民不聊生，民稱「三千索，直秘閣；五百貫，擢通判」。 方臘、宋江發動起義，但在宣和四年被鎮壓，宣告失敗。 宣和七年十月，一夥劫富濟貧的俠客，名為「幽影」，活躍於江湖之中。 他們劫富濟貧，懲惡揚善，深受百姓愛戴。幽影的首領名為「夜鴉」，是一名武功高強、智謀過人的盜俠。 他精通各種密碼學，並將其運用於盜竊行動之中。 但眾人不知道的是，你就是夜鴉，用此身分隱藏在人群之中。
+                北宋宣和年，當時宋徽宗寵信六個奸臣，使蔡京、王黼、童貫、朱勔、李彥、梁師成， 六賊當道，民不聊生，民稱「三千索，直秘閣；五百貫，擢通判」。
+                <br/>
+                方臘、宋江發動起義，但在宣和四年被鎮壓，宣告失敗。
+                <br/><br/>
+                宣和七年十月，一夥劫富濟貧的俠客，名為「幽影」，活躍於江湖之中。
+                <br/>
+                他們劫富濟貧，懲惡揚善，深受百姓愛戴。
+                <br/>
+                <br/>
+                幽影的首領名為「夜鴉」，是一名武功高強、智謀過人的盜俠。 他精通各種密碼學，並將其運用於盜竊行動之中。
+                <br/>
+                但眾人不知道的是，你就是夜鴉，用此身分隱藏在人群之中。
             </h1>
             <a onclick="next(1)">繼續</a>
         </div>
@@ -15,9 +27,11 @@
             </h1>
             <a onclick="next(2)">打開密信</a>
         </div>
-        <div id="thrid">
-            
+        <div id="third" style="display: none;">
+            <p class="text">樺樹林裡無木，木在田中，<br/>閒人窗紗掩月，取刀一剪。</p>
+            <input type="text" id="answer" placeholder="輸入答案">
+            <a class="link" onclick="next(3)">確認</a>
         </div>
-        <script src="./js/chapter1.js"></script>
+        <script src="./js/chapter1.js?v0.2"></script>
     </body>
 </html>
