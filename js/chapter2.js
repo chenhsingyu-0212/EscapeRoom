@@ -11,17 +11,17 @@ function next(id) {
         document.getElementById("letter").style.display = "none";
         document.getElementById("background").style.backgroundImage = "url('./images/map.jpg')";
         break;
-      case 3:
-        if(document.getElementById("answer").value == "華東門前"){
-          document.getElementById("four").style.display = "block";
-          document.getElementById("third").style.display = "none";
-          document.getElementById("letter").style.display = "none";
-        }else{
-          alert("答案錯誤");
-        }
-        break;
       default:
-        window.location.href = "./chapter2.html";
+        window.location.href = "./chapter3.html";
         break;
     }
-  }
+}
+
+function yes(){
+    document.getElementById("four").style.display = "block";
+    document.getElementById("third").style.display = "none";
+}
+
+function no(){
+    alert("答案錯誤");
+}
