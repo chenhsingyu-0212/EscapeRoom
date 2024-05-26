@@ -7,6 +7,7 @@ function next(id) {
     case 1:
       document.getElementById("first").style.display = "none";
       document.getElementById("second").style.display = "flex";
+      document.getElementById("info").style.display = "block";
       break;
     case 2:
       if (
@@ -27,3 +28,13 @@ function next(id) {
       break;
   }
 }
+
+function show(){
+    let dialog = document.getElementById("info-dialog");
+    dialog.style.display = "block";
+  }
+  
+  function closeDialog(){
+    let dialog = document.getElementById("info-dialog");
+    dialog.style.display = "none";
+  }

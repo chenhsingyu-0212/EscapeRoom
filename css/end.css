@@ -34,7 +34,9 @@ a{
     text-decoration: none;
     float: right;
 }
-
+html, body {
+    zoom: 1;
+  }
 a:hover{
     background-color: #809EC2;
     color: white;

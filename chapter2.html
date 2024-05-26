@@ -1,8 +1,10 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="./css/chapter2.css?v0.1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
     </head>
     <body id="background">
+        <i id="info" onclick="show()" class="fa-solid fa-circle-info" style="display: none;"></i>
         <img id="letter" src="./images/P5-Mail.png" alt="letter" style="display: none; position: fixed; z-index: -1;">
         <div id="first">
             <h1 class="word">
@@ -34,6 +36,20 @@
             </h1>
             <a onclick="next(4)">下一章</a>
         </div>
+        <dialog id="info-dialog">
+            <h1 class="w">
+                密碼學：隱語法<br/><br/> 
+                說明：隱語也稱暗語，是把秘密信息變換成字面上有一定意義，但與該信息完全無關的話語
+                是一種沿用時間很長、應用範圍很廣的自然語言加密方法。
+                《左傳·宣公十二年》中記載，春秋時楚子欲攻打蕭國，蕭國大夫還無社向楚國大夫申叔展求救。
+                申叔展用隱語問還無社：「你有麥粷嗎？」，還無社答：「沒有。」申叔展又問：「你有山鞠窮
+                嗎？」還無社仍答：「沒有。」麥粷和山鞠窮是兩種防治風溫的中草藥，申叔展用這兩種藥名做
+                隱語，暗指水坑水井，暗示還無社在戰鬥中身藏水井裡。申叔展見還無社沒有領會隱語的含義，
+                便進一步暗示：「你得了風濕病怎麼辦？」還無社這才將隱語與水井聯繫起來，明白了申叔展的
+                意思。次日，蕭國戰敗，申叔展救出了藏匿在廢水井中的還無社。
+            </h1>
+            <div class="b" onclick="closeDialog()">關閉</div>
+          </dialog>
         <script src="./js/chapter2.js?v0.2"></script>
     </body>
 </html>

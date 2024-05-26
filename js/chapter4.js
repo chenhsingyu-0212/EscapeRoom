@@ -10,6 +10,7 @@ function next(id) {
         document.getElementById("third").style.display = "flex";
         document.getElementById("letter").style.display = "block";
         document.getElementById("background").style.backgroundImage = "url('./images/P4-Box1.jpg')";
+        document.getElementById("info").style.display = "block";
         break;
       case 3:
         if(document.getElementById("a1").value == "水" &&
@@ -34,3 +35,13 @@ function next(id) {
   window.onload = function () {
     window.zoom = 1;
   };
+
+  function show(){
+    let dialog = document.getElementById("info-dialog");
+    dialog.style.display = "block";
+  }
+  
+  function closeDialog(){
+    let dialog = document.getElementById("info-dialog");
+    dialog.style.display = "none";
+  }

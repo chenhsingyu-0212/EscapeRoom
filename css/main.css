@@ -19,6 +19,9 @@ h1{
     margin: 0 0 50px 0;
     font-family: 'Lobster', cursive;
 }
+html, body {
+    zoom: 1;
+  }
 
 div{
     text-align: center;

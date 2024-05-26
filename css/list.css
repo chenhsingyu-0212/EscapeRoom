@@ -26,6 +26,9 @@ div{
     width: 60%;
     padding: 50px;
 }
+html, body {
+    zoom: 1;
+  }
 
 a{
     background-color: #809EC2;
